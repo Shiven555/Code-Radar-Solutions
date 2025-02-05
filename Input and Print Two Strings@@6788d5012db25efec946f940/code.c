@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(){
-     a = "hello ";
-    scanf("%s",&a);
-    printf("You entered: %s and %s",a);
+   char s1[] = "hello";
+   scanf("%s",&a);
+   char s2[] = "world"
+   scanf("%s",&b);
+    printf("You entered: %s and %s",a,b);
 }
