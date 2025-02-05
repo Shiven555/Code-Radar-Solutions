@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
     
-    float num1;
+    int num1;
     ;
     scanf("%f",&num1);
-    float num2;
+    int num2;
     
     scanf("%f",&num2);
-    float num3;
+    int num3;
     
     scanf("%f",&num3);
     
