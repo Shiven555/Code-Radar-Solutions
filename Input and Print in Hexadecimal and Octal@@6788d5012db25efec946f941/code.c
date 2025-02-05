@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-int a = 10;
+int a = "A";
 scanf("%d",&a);
 
 printf("Hexadecimal: %d\n",a);
