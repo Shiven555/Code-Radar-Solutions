@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
     char st2[] = "Painting";
     scanf("%s",&st2);
-    printf("Name: %s\n");
-    printf("Age: %d\n");
+    printf("Name: %s");
+    printf("Age: %d");
     printf("Hobby: %s");
 }
