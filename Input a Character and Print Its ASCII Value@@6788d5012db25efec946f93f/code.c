@@ -2,5 +2,5 @@
 int main(){
      char ch = 'A';
     scanf("%c", &ch);
-    print("%c is %d",ch);
+    printf("%c is %d",ch);
 }
