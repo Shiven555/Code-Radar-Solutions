@@ -4,5 +4,5 @@ int main(){
    scanf("%s",&s1);
    char s2[] = "world"
    scanf("%s",&s2);
-    printf("You entered: %s ",s1 and s2);
+    printf("You entered: %s \n",s1 and s2);
 }
