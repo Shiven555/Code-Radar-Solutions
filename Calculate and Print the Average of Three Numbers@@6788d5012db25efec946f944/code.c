@@ -8,6 +8,6 @@ int main() {
     int num3 = 15;
     scanf("%d",&num3);
     Average = double((num1+num2+num3)/3);
-    printf("Average: %.lf\n",Average;
+    printf("Average: %.lf\n",Average);
      return 0 ;
 }
