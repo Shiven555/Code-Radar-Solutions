@@ -11,7 +11,7 @@ int main() {
     
     scanf("%d",&num3);
     
-    printf("Average: %f\n",(num1+num2+num3)/3);
+    printf("Average: %.2f\n",(num1+num2+num3)/3);
     
    
     
