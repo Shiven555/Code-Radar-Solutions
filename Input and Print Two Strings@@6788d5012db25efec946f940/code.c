@@ -5,5 +5,5 @@ int main(){
    char s2[] = "World";
    scanf("%s",&s2);
    
-    printf("You entered: %s and %s \n",s1,s2 );
+    printf("You entered: %sand%s\n",s1,s2 );
 }
