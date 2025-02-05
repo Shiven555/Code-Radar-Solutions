@@ -1,13 +1,7 @@
 #include <stdio.h>
-int main() {
-    
-    int num1 = 5;
-    scanf("%d",&num1);
-    int num2 = 10;
-    scanf("%d",&num2);
-    int num3 = 15;
-    scanf("%d",&num3);
-    Average = double((num1+num2+num3)/3);
-    printf("Average: %.lf\n"),Average;
-     return 0 ;
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    double avg = (a+b+c)/3.0;
+    printf("Average: %.2f",avg);
 }
