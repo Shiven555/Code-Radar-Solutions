@@ -4,9 +4,9 @@ int main(){
     scanf("%s",&str1);
  
     int a;
-    getchar();
+    
     scanf("%d",&a);
-    char str2[20] ;
+    char str2[20];
     scanf("%s",&str2);
     printf("Name: %s\n",str1);
     printf("Age: %d\n",a);
