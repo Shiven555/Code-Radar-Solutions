@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
     char str1[] = "Alice";
-    scanf("%[^\n]s",&str1);
+    scanf("%s",&str1);
  
     int a;
+    getchar();
     scanf("%d",&a);
     char str2[] = "Painting";
     scanf("%s",&str2);
