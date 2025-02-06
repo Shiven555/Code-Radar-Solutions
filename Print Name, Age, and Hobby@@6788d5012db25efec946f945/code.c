@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char str1[] = "Alice";
+    char str1[];
     scanf("%s",&str1);
  
     int a;
