@@ -2,9 +2,9 @@
 int main(){
     char str1[] = "Alice";
     scanf("%s",&str1);
-    getchar();
+ 
     int a;
-    scanf("%d",&a);
+ 
     char str2[] = "Painting";
     scanf("%s",&str2);
     printf("Name: %s\n",str1);
