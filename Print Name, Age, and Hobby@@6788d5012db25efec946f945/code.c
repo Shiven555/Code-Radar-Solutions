@@ -2,7 +2,8 @@
 int main(){
     char str1[] = "Alice";
     scanf("%s",&str1);
-    int a = 35;
+    getchar();
+    int a;
     scanf("%d",&a);
     char str2[] = "Painting";
     scanf("%s",&str2);
