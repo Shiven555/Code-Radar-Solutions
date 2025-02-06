@@ -2,7 +2,7 @@
 int main(){
     int a,b,result;
     scanf("%d %d",&a,&b,&result);
-    result = num1 | num2;
+    result = a | b;
     printf("%d and %d is: %d",a,b);
     
 }
