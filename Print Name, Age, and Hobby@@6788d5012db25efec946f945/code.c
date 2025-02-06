@@ -4,10 +4,10 @@ int main(){
     scanf("%s",&str1);
  
     int a;
- 
+    scanf("%d",&a);
     char str2[] = "Painting";
     scanf("%s",&str2);
     printf("Name: %s\n",str1);
-    printf("Age: %d\n",a);
+    printf("Age: %d\n");
     printf("Hobby: %s\n",str2);
 }
