@@ -1,21 +1,9 @@
 #include <stdio.h>
-
-int main() {
-    float num1, num2, num3;
-;
-    scanf("%f %f %f", &num1, &num2, &num3);
- 
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b | a>c | b>a | b>c | c>a | c>b ){
+        printf("%%d",a,b,c);
+    }
     
-    float max = num1;
-
-    if (num2 > max) {
-        max = num2;
-    }
-
-    if (num3 > max) {
-        max = num3;
-    }
-      printf("%d", max);
-
-    return 0;
 }
