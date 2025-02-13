@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,m,nthbits;
+    int n,m,nthbit;
     scanf("%d %d ",&n,&m);
     nthbit = 1&(n >> m);
     printf("%d",nthbit);
