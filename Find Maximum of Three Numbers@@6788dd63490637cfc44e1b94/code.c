@@ -4,7 +4,7 @@ int main() {
     int num1, num2, num3;
 
     // Prompt user to enter three numbers
-    printf("Enter three numbers: ");
+    
     scanf("%d %d %d", &num1, &num2, &num3);
 
     // Determine the maximum number
