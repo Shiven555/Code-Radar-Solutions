@@ -8,8 +8,8 @@ in main(){
     }
     int position = 0
     while ((num & 1) == 0){
-         num >>= 1;
-         position++;
+        num >>= 1;
+        position++;
 
     }
     printf("%d\n",position);
