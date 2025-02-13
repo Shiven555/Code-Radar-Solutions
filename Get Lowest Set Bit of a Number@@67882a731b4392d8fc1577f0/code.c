@@ -6,7 +6,7 @@ in main(){
         printf("-1\n");
         return 0;
     }
-    int position = 0
+    int position = 0;
     while ((num & 1) == 0){
         num >>= 1;
         position++;
