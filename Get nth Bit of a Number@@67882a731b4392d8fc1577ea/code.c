@@ -4,6 +4,6 @@ int main(){
     scanf("%d %d ",&n,&m);
     nthbit = 1&(n >> m);
     printf("%d",nthbit);
-    return0;
+    return 0;
 
 }
