@@ -1,9 +1,25 @@
 #include <stdio.h>
-int main(){
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    if(a>b | a>c | b>a | b>c | c>a | c>b ){
-        printf("%%d",a,b,c);
+
+int main() {
+    int num1, num2, num3;
+
+    // Prompt user to enter three numbers
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    // Determine the maximum number
+    int max = num1;
+
+    if (num2 > max) {
+        max = num2;
     }
-    
+
+    if (num3 > max) {
+        max = num3;
+    }
+
+    // Display the maximum number
+    printf("%d\n", max);
+
+    return 0;
 }
