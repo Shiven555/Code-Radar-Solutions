@@ -6,12 +6,12 @@ in main(){
     printf("-1\n");
     return 0;
     }
-int position = 0
-while ((num & 1) == 0){
-    num >>= 1;
-    position++;
+    int position = 0
+    while ((num & 1) == 0){
+         num >>= 1;
+         position++;
 
-}
-printf("%d\n",position);
-return 0;
+    }
+    printf("%d\n",position);
+    return 0;
 }
