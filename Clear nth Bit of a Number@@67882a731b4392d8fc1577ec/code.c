@@ -4,9 +4,9 @@ int clearbit(int num, int n){
     return num & mask;
 }
 int main(){
-    int number , postion;
-    scanf("%d %d",&number , &positon);
-    printf("%d \n", clearbit(number , positon));
+    int number,position;
+    scanf("%d %d",&number , &position);
+    printf("%d \n", clearbit(number , position));
     return 0;
     
 }
