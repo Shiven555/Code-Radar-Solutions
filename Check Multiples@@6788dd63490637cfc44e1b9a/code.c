@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    int num, divisor;
+    int a, b;
     
    
-    scanf("%d", &num);
+    scanf("%d", &a);
  
-    scanf("%d", &divisor);
+    scanf("%d", &b);
     
    
-    if(num % divisor == 0){
-        printf("Yes %d\n", num, divisor);
+    if(a % b == 0){
+        printf("Yes", a, b);
     }
     else{
-        printf("No %d\n", num, divisor);
+        printf("No",a, b);
     }
     
     return 0;
