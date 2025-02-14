@@ -7,16 +7,16 @@ int main() {
     scanf("%c", &ch);
 
     if (isdigit(ch)) {
-        printf("'%c'", ch);
+        printf("Digit\n", ch);
     } else if (isalpha(ch)) {
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
             ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-            printf("'%c'", ch);
+            printf("Vowel\n", ch);
         } else {
-            printf("'%c'", ch);
+            printf("Consonant\n", ch);
         }
     } else {
-        printf("'%c'" , ch);
+        printf("Special Character\n", ch);
     }
 
     return 0;
