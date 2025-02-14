@@ -2,7 +2,7 @@
 int main(){
     float a,b;
     scanf("%f %f ",&a,&b);
-    if((a%b)==0){
+    if(a%b){
         printf("Yes");
     }
     else{
