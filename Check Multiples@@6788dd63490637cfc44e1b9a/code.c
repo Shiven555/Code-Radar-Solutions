@@ -1,14 +1,20 @@
 #include <stdio.h>
-#include <math.h> 
 
 int main(){
-    float a, b;
-    scanf("%f %f", &a, &b);
-    if(fmod(a, b) != 0.0){
-        printf("Yes");
+    int num, divisor;
+    
+   
+    scanf("%d", &num);
+ 
+    scanf("%d", &divisor);
+    
+   
+    if(num % divisor == 0){
+        printf("Yes %d\n", num, divisor);
     }
     else{
-        printf("No");
+        printf("No %d\n", num, divisor);
     }
-    return 0; 
+    
+    return 0;
 }
