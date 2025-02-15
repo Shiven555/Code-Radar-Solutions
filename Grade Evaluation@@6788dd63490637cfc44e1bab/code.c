@@ -4,8 +4,6 @@ int main() {
     int grades;
     char ch;
 
-    // Prompt user for input
-    printf("Enter a grade (1-5): ");
     scanf("%d", &grades);
 
     // Determine the corresponding grade character
