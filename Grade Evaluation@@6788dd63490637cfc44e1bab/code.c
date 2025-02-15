@@ -32,7 +32,7 @@ int main() {
             printf("Invalid grade\n");
             return 1;
     }
-        printf("Grade: %c\n", ch);
+        printf("%c\n", ch);
 
     return 0;
 }
