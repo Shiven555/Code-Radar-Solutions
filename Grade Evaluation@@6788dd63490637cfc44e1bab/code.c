@@ -34,9 +34,7 @@ int main() {
             printf("Invalid grade\n");
             return 1;
     }
-
-    // Display the grade character
-    printf("Grade: %c\n", ch);
+        printf("Grade: %c\n", ch);
 
     return 0;
 }
