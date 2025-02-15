@@ -10,10 +10,9 @@ int main(){
         case 5: printf("Friday\n"); break;
         case 6: printf("Saturday\n"); break;
         case 7: printf("Sunday\n"); break;
-        Default: printf("Invalid");
-   
-   
-   
+        }
+    else{
+        printf("Invalid");
     }
 
 }
