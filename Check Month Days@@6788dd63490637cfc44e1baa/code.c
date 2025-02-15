@@ -20,7 +20,7 @@ int main() {
             return 1;
     }
 
-    printf("Number of days: %d\n", days);
+    printf("%d\n", days);
 
     return 0;
 }
