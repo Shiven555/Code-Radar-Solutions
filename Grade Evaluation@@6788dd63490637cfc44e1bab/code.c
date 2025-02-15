@@ -7,8 +7,8 @@ int main(){
     switch(grade){
         case 1:
         ch = 'A';
-        printf("Excellent",grade);
+        printf("Excellent");
 
     }
-    printf("%c",grade);
+    printf("%c",ch);
 }
