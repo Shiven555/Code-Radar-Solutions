@@ -3,10 +3,7 @@
 int main() {
     int grades;
     char ch;
-
     scanf("%d", &grades);
-
-    // Determine the corresponding grade character
     switch(grades) {
         case 1:
             ch = 'A';
