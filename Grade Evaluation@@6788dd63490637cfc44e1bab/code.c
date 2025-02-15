@@ -11,19 +11,19 @@ int main() {
             break;
         case 2:
             ch = 'B';
-            printf("Very Good\n");
+            printf("Good\n");
             break;
         case 3:
             ch = 'C';
-            printf("Good\n");
+            printf("Average\n");
             break;
         case 4:
             ch = 'D';
-            printf("Satisfactory\n");
+            printf("Below Average\n");
             break;
         case 5:
-            ch = 'E';
-            printf("Needs Improvement\n");
+            ch = 'f';
+            printf("Fail\n");
             break;
         default:
             printf("Invalid grade\n");
