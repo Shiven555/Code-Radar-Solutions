@@ -9,15 +9,15 @@ int main() {
     switch(operator) {
         case '+':
             result = num1 + num2;
-            printf("Result: %.2lf\n", result);
+            printf("%.2lf\n", result);
             break;
         case '-':
             result = num1 - num2;
-            printf("Result: %.2lf\n", result);
+            printf("%.2lf\n", result);
             break;
         case '*':
             result = num1 * num2;
-            printf("Result: %.2lf\n", result);
+            printf("%.2lf\n", result);
             break;
         case '/':
             result = num1 / num2;
