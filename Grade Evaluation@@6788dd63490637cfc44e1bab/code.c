@@ -9,4 +9,5 @@ int main(){
         printf("Excellent",grades);
 
     }
+    printf("%c",grades);
 }
