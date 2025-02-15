@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main(){
-    int grades;
+    int grade;
+
     char ch;
-    scanf("%c",&ch);
-    switch(grades){
+    scanf("%d",&grade);
+    switch(grade){
         case 1:
         ch = 'A';
-        printf("Excellent",grades);
+        printf("Excellent",grade);
 
     }
-    printf("%s",grades);
+    printf("%c",grade);
 }
