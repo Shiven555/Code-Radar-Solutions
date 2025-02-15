@@ -9,7 +9,7 @@ int main() {
     scanf("%lf",&result);
     switch(operator) {
         case '+':
-            result = num1 + num2;
+            
             printf("%.2lf\n",num1+num2);
             break;
         case '-':
