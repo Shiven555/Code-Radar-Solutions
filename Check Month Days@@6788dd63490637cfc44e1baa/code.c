@@ -16,7 +16,7 @@ int main() {
             days = 28;
             break;
         default:
-            printf("Invalid month. Please enter a number between 1 and 12.\n");
+            printf("Invalid month.\n");
             return 1;
     }
 
