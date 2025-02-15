@@ -23,8 +23,9 @@ int main() {
             result = num1 / num2;
                 printf("%.2lf\n", result);
             
+        
+    }
         default:
             printf("error");
-    }
 }
 
