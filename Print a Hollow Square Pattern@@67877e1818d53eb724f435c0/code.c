@@ -7,7 +7,7 @@ int main(){
             if(j==1 || j==rows || i==1 || i==rows)
             printf("*");
             else
-            printf("  ");
+            printf(" ");
         }
     printf("\n");
     }
