@@ -1,4 +1,4 @@
-#include<stdiio.h>
+#include<stdio.h>
 int main(){
     int i,j,rows;
     scanf("%d",&rows);
