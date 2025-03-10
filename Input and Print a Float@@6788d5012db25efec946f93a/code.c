@@ -1,4 +1,4 @@
 #include <stdio.h>
-double int  a;
+double a;
 scanf("%f",&a);
 printf("You entered: %.2f",a);
