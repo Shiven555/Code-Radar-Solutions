@@ -6,7 +6,7 @@ int main(){
         for(j=1;j<=rows;j++){
             if(j==1 || j==rows || i==1 || i==rows)
             printf(" ");
-            else()
+            else
             printf("* ");
         }
     }
