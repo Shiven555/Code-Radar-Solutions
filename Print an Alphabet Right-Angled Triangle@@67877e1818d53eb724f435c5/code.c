@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()[
-    char i,j,k,rows;
+    char rows;
     scanf("%c",&rows);
-    for(i=1;i<=rows;i++){
-        for(j=1;j<=i;j++){
+    for(int i=1;i<=rows;i++){
+        for(int j=1;j<=i;j++){
             printf("%c ",j);
         }
     printf("\n");
