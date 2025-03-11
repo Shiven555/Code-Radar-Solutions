@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()[
+int main(){
     int rows;
     scanf("%d",&rows);
     for(int i=1;i<=rows;i++){
@@ -9,4 +9,4 @@ int main()[
     printf("\n");
     }
 
-]
+}
