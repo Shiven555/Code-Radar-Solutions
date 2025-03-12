@@ -6,11 +6,11 @@ int main() {
     char ch = 'A';
 
     for (i = 1; i <= rows; i++) {
-        printf("A ");  // Always print 'A' first
+        printf("A ");  
         for (j = 1; j < i; j++) {
             printf("%c ", ch + j);
         }
-        printf("\n"); // Move to the next line after each row
+        printf("\n"); 
     }
 
     return 0;
