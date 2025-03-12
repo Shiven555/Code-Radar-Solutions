@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int n,i,mul;
+    int n,i;
     scanf("%d",&n);
     for(i=1;i<=10;i++){
-        mul*=i;
-    }
-    printf("%d X %d = %d",mul);
+        
+    
+    printf("%d X %d = %d",num,i,num*i);}
 }
