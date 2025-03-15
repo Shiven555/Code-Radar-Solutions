@@ -1,3 +1,5 @@
+include <stdio.h>
+
 def bubble_sort(arr):
     n = len(arr)
     # Loop through the array multiple times
