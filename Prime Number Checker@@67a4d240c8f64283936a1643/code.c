@@ -1,6 +1,7 @@
 #include <stdio.h>
-int isprime;
+
 int main() {
+   int isprime;
     
      isPrime(num) 
         printf("%d",isPrime);
