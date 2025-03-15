@@ -8,8 +8,8 @@ int isPrime(int n) {
     return 1;
 }
 int main() {
-    int num = 29; // Example number
-    if (isPrime(num)) 
+    
+     isPrime(num) 
         printf("%d",isPrime);
 
     
