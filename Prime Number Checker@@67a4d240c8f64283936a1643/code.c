@@ -9,7 +9,7 @@ int isPrime(int n) {
 }
 int main() {
     
-     isPrime(num) 
+     isPrime() 
         printf("%d",isPrime);
 
     
