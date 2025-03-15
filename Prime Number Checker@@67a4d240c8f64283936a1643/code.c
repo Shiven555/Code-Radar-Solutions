@@ -10,9 +10,8 @@ int isPrime(int n) {
 int main() {
     int num = 29; // Example number
     if (isPrime(num)) 
-        printf("%d is a prime number.\n", num);
-    else 
-        printf("%d is not a prime number.\n", num);
+        printf("%d",isPrime);
+
     
     return 0;
 }
