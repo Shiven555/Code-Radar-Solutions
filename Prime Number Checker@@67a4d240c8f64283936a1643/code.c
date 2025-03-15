@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     
-     isPrime() 
+     isPrime(num) 
         printf("%d",isPrime);
 
     
